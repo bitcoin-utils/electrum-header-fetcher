@@ -1,0 +1,27 @@
+node_modules/
+
+# Output files
+*.bin
+btc.archive.bin
+btc.current.bin
+tbtc3.archive.bin
+tbtc3.current.bin
+tbtc4.archive.bin
+tbtc4.current.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Custom
+.well-known

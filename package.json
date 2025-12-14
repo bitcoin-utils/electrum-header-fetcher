@@ -1,0 +1,43 @@
+{
+  "name": "electrum-header-fetcher",
+  "version": "0.0.1",
+  "description": "Fetch Bitcoin block headers from Electrum network and save as binary files (NIP-333 compatible)",
+  "main": "getHeaders.js",
+  "bin": {
+    "electrum-headers": "./getHeaders.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node getHeaders.js",
+    "verify": "node getHeaders.js --verify",
+    "verify:archive": "node getHeaders.js --verify btc.archive.bin",
+    "verify:current": "node getHeaders.js --verify btc.current.bin"
+  },
+  "keywords": [
+    "bitcoin",
+    "electrum",
+    "headers",
+    "blockchain",
+    "nip-333",
+    "nostr",
+    "spv",
+    "block-headers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "getHeaders.js",
+    "README.md"
+  ]
+}
