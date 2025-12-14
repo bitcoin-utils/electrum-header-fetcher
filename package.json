@@ -27,12 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/bitcoin-utils/electrum-header-fetcher.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/bitcoin-utils/electrum-header-fetcher/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/bitcoin-utils/electrum-header-fetcher#readme",
   "engines": {
     "node": ">=14.0.0"
   },
