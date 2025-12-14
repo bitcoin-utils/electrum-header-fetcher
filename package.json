@@ -4,7 +4,7 @@
   "description": "Fetch Bitcoin block headers from Electrum network and save as binary files (NIP-333 compatible)",
   "main": "getHeaders.js",
   "bin": {
-    "electrum-headers": "./getHeaders.js"
+    "electrum-headers": "getHeaders.js"
   },
   "type": "commonjs",
   "scripts": {
